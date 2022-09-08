@@ -13,6 +13,6 @@ public class TestController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String home(Model model) {
         model.addAttribute("index", "hello world !!!");
-        return "/index";
+        return "index";
     }
 }
