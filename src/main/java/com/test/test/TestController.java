@@ -17,6 +17,7 @@ public class TestController {
 
         model.addAttribute("index", "hello world !!!");
         model.addAttribute("hostAddress", lastAddress);
+        model.addAttribute("version", 2);
 
         return "index";
     }
